@@ -6,7 +6,6 @@ The Acquired-iOS-MacOS SDK allows you to easily integrate Apple Pay and a hosted
 ## Requirements
 - iOS 13+
 - MacOS 11+
-- xCode 12.3+ 
 
 ## Installation
 Use [Swift Package Manager](https://swift.org/package-manager/) to install this SDK. 
