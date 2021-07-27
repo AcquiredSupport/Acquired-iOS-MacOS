@@ -138,7 +138,4 @@ In there is a validation issue when loading the payment page, we will return a H
 
 ### Security Error
 
-The SDK is secured using Certificate Pinning through TrustKit. In the event that this fails the SDK will return a CertificatePinningError.  
-
-## Examples
-Take a look at at the [Acquired-iOS-ExampleApp](https://github.com/AcquiredSupport/Acquired-iOS-ExampleApp) for a SwiftUI implementation of the SDK. 
+The SDK is secured using Certificate Pinning through TrustKit. In the event that this fails the SDK will return a CertificatePinningError.   
