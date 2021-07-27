@@ -114,10 +114,10 @@ All known declines and errors are caught and handled by the SDK.
 
 ### General Failures
 
+Other than the ones detailed below, all other errors (for example, a parsing error from the Swift JsonDecoder) are just returned as standard Swift Errors.
+
 PaymentError.userCancelled
 PaymentError.MissingInformation(String)
-
-Other than the ones detailed below, 
 
 ### Specific Failures
 When you get the PaymentData, we return an array of grouped response_code values returned in a PaymentAuthorizationError:
