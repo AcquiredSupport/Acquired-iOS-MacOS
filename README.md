@@ -26,7 +26,10 @@ Once you've got this, the SDK can be fully configured within the [Acquired.com H
 - Required Billing Data (Address, Email, Phone)
 - Required Shipping Data (Address, Email, Phone)
 
-Changes can be easily made to your configuration and payment page styling without the need to update or release your app. 
+Changes can be easily made to your configuration and payment page without the need to update or release your app.
+
+## Examples
+Take a look at at the [Acquired-iOS-ExampleApp](https://github.com/AcquiredSupport/Acquired-iOS-ExampleApp) for a SwiftUI implementation of the SDK.
 
 ## How to use the SDK
 
@@ -122,14 +125,14 @@ PaymentError.MissingInformation(String)
 ### Specific Failures
 When you get the PaymentData, we return an array of grouped response_code values returned in a PaymentAuthorizationError:
 
-PaymentAuthorizationError.Declined
-PaymentAuthorizationError.Error
-PaymentAuthorizationError.Blocked
-PaymentAuthorizationError.Pending
-PaymentAuthorizationError.Quarantined
-PaymentAuthorizationError.TdsFailure
-PaymentAuthorizationError.Unknown
-PaymentAuthorizationError.InvalidCode 
+PaymentAuthorizationError.Declined<br>
+PaymentAuthorizationError.Error<br>
+PaymentAuthorizationError.Blocked<br>
+PaymentAuthorizationError.Pending<br>
+PaymentAuthorizationError.Quarantined<br>
+PaymentAuthorizationError.TdsFailure<br>
+PaymentAuthorizationError.Unknown<br>
+PaymentAuthorizationError.InvalidCode<br>
 
 In there is a validation issue when loading the payment page, we will return a HostedPaymentError which has a code and localizedDecription. 
 
