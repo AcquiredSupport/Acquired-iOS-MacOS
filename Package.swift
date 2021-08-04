@@ -6,39 +6,43 @@ let package = Package(
     products: [
         .library(
             name: "ACQPaymentGateway",
-            targets: ["ACQPaymentGateway", "Core", "ACQCore", "ACQRemoteClient", "ACQCardPayment", "ACQApplePay"]),
+            targets: ["ACQPaymentGateway", "Core", "ACQCore", "ACQRemoteClient", "ACQCardPayment", "ACQApplePay", "ACQNetworkSecurity"]),
     ],
-    dependencies: [],
     targets: [
         .binaryTarget(
             name: "ACQPaymentGateway",
-            url: "https://github.com/AcquiredSupport/Acquired-iOS-MacOS/releases/download/0.0.3/ACQPaymentGateway.zip",
-            checksum: "0825f7dc970f0539a8e080a4fefbd4ad4156edc26c86877467f2f38f5840eb7a"
+            url: "https://github.com/AcquiredSupport/Acquired-iOS-MacOS/releases/download/0.0.4/ACQPaymentGateway.zip",
+            checksum: "59071712017d19436c1f6a3589bf704b460f73c2ce5d93c3b91ed6add6d01ace"
         ),
         .binaryTarget(
             name: "Core",
-            url: "https://github.com/AcquiredSupport/Acquired-iOS-MacOS/releases/download/0.0.3/Core.zip",
-            checksum: "f5b87291566d2116150d286483a5032dda7a851a97177fe7fdc87559de5886ad"
+            url: "https://github.com/AcquiredSupport/Acquired-iOS-MacOS/releases/download/0.0.4/Core.zip",
+            checksum: "769b01d0c125cd6cf91b3aa44b358c12eb6730a7a1cb34aa58fda2c310a68b20"
         ),
         .binaryTarget(
             name: "ACQCore",
-            url: "https://github.com/AcquiredSupport/Acquired-iOS-MacOS/releases/download/0.0.3/ACQCore.zip",
-            checksum: "4bb0ea104e96238a2ed7d14d598a1df089808f301f8a29f36610a24c48b0fbf2"
+            url: "https://github.com/AcquiredSupport/Acquired-iOS-MacOS/releases/download/0.0.4/ACQCore.zip",
+            checksum: "796c92dcd99c60d1927e55bf4835ee1cdb4f367506b3e06451e09c6241f9e8b8"
         ),
         .binaryTarget(
             name: "ACQRemoteClient",
-            url: "https://github.com/AcquiredSupport/Acquired-iOS-MacOS/releases/download/0.0.3/ACQRemoteClient.zip",
-            checksum: "7cc7d7a44e12b008de6e53eead61109a4048eff9b9d22c8456f9087548088b18"
+            url: "https://github.com/AcquiredSupport/Acquired-iOS-MacOS/releases/download/0.0.4/ACQRemoteClient.zip",
+            checksum: "ce9d8f858b21ce896976347482f08e92aa3245d960de994d2dd52cd1146b1681"
         ),
         .binaryTarget(
             name: "ACQCardPayment",
-            url: "https://github.com/AcquiredSupport/Acquired-iOS-MacOS/releases/download/0.0.3/ACQCardPayment.zip",
-            checksum: "0d890b793a2f13ab02b7d3ffbb346c2e229d6210471f0165f66b2486160047ef"
+            url: "https://github.com/AcquiredSupport/Acquired-iOS-MacOS/releases/download/0.0.4/ACQCardPayment.zip",
+            checksum: "aa45c52b39672a029e32d994c48825ce131dc70bdcdd83c5983de79d3b3c4330"
         ),
         .binaryTarget(
             name: "ACQApplePay",
-            url: "https://github.com/AcquiredSupport/Acquired-iOS-MacOS/releases/download/0.0.3/ACQApplePay.zip",
-            checksum: "a31662372d1dd721261bec495233765caf1e3068978681a6301007cf1d233324"
+            url: "https://github.com/AcquiredSupport/Acquired-iOS-MacOS/releases/download/0.0.4/ACQApplePay.zip",
+            checksum: "24676ad14035854d315e7805afdb2a20a11bb2eb5df98ef2fcda83a6f323649e"
+        ),
+        .binaryTarget(
+            name: "ACQNetworkSecurity",
+            url: "https://github.com/AcquiredSupport/Acquired-iOS-MacOS/releases/download/0.0.4/ACQNetworkSecurity.zip",
+            checksum: "8610a2dafbc7d84385bccac97184d92f7b7d59b2c6a1daf1f62b51c8b632a95b"
         )
     ]
 )
