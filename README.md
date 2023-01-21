@@ -26,6 +26,7 @@ Once you've got this, the SDK can be fully configured within the [Acquired.com H
 - Required Billing Data (Address, Email, Phone)
 - Required Shipping Data (Address, Email, Phone)
 
+
 Changes can be easily made to your configuration and payment page without the need to update or release your app.
 
 ## Examples
